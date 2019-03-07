@@ -4,92 +4,11 @@
 	<title>shooting test</title>
 
 	<script src="js/default.js"></script>
-	<style type="text/css">
-		* { 
-			margin: 0;
-			padding: 0; 
-		}
-		body{
-			text-align: center;
-			margin: 0; 
-			height: 100%; 
-			overflow: hidden;
-			font-family: system, -apple-system, '.SFNSText-Regular', 'SF UI Text', 'Lucida Grande', 'Segoe UI', Ubuntu, Cantarell, sans-serif;
-		}
-		canvas { 
-			/*border: 1px solid black; */
-			display:block;
-			position: absolute;
-			background-color: transparent;
-			left: 0%;
-		}
-		.controls {
-			float: right;
-			visibility: hidden;
-		}
 
-		#title-bar {
-			-webkit-app-region: drag;
-			height: 32px; 
-			padding: 0px;
-			margin: 0px; 
-			color: #fff;
-			background-color: #66d;
-			font-family: sans-serif;
-		}
-		#title {
-			position: fixed;
-			top: 0px;
-			left: 40px; 
-			line-height: 32px;
-			font-size: 14px;
-
-		}
-		#title-bar-btns {
-			-webkit-app-region: no-drag;
-			position: fixed;
-			top: 0px;
-			right: 0px; 
-		}
-		#title-bar-btns button {
-			height: 32px;
-			width: 32px;
-			background-color: transparent;
-			border: none;
-			color: #ADADAD;
-			font-size: 16px;
-		}
-		#title-bar-btns-left{
-			-webkit-app-region: no-drag;
-			position: fixed;
-			top: 0px;
-			left: 0px; 
-		}
-		#title-bar-btns-left button {
-			height: 32px;
-			width: 32px;
-			background-color: transparent;
-			border: none;
-			color: #ADADAD;
-			font-size: 16px;
-		}
-		#title-bar-btns-left button:hover {
-			background-color: #3F3F41;
-		}
-		#title-bar-btns button:hover {
-			background-color: #3F3F41;
-		}
-		#content {
-			padding: 12px; 
-			color: #CCCCCC;
-		}
-		a {
-			color: #68217A;
-		}
-	</style>
+	<link rel="stylesheet" href="css/main.css">
 
 </head>
-<body onload="init();">
+<body onload="">
 	<div id="title-bar">
 		<div id="title-bar-btns-left">
 			<button id="menu-btn"><img src="icon/menu-square-button.svg" width="16px" height="16px"></button>
